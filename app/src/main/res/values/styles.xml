@@ -1,0 +1,103 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textSize">@dimen/menutextsize</item>
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoTextAppearanceListStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Theme.Test.DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@color/black</item>
+        <item name="color">@color/black</item>
+    </style>
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/disclaimertextsizesmall</item>
+    </style>
+    <style name="standardbutton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/generate_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">@dimen/main_button_size</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin</item>
+        <item name="android:paddingTop">@dimen/main_button_top_padding</item>
+        <item name="android:paddingBottom">@dimen/main_button_top_padding</item>
+        <item name="android:paddingLeft">@dimen/main_button_left_padding</item>
+        <item name="android:paddingRight">@dimen/main_button_left_padding</item>
+    </style>
+    <style name="tabbutton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">@dimen/main_button_size</item>
+        <item name="android:paddingTop">@dimen/main_button_top_padding</item>
+        <item name="android:paddingBottom">@dimen/main_button_top_padding</item>
+        <item name="android:paddingLeft">@dimen/main_button_left_padding</item>
+        <item name="android:paddingRight">@dimen/main_button_left_padding</item>
+    </style>
+    <style name="label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">@dimen/disclaimertextsizesmall</item>
+    </style>
+    <style name="mediumlabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">@dimen/disclaimertextsizemicro</item>
+    </style>
+    <style name="attributelabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/lightorange</item>
+        <item name="android:textSize">@dimen/disclaimertextsizesmall</item>
+    </style>
+    <style name="smalllabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">@dimen/disclaimertextsizemicro</item>
+    </style>
+    <style name="titlelabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">@dimen/disclaimertextsize</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background" tools:ignore="NewApi">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+    <style name="edit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/lightorange</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textSize">@dimen/disclaimertextsizesmall</item>
+    </style>
+
+</resources>

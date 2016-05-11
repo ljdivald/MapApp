@@ -1,0 +1,54 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:context="com.example.ljudevit.mapapp.MapsActivity" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/optionslayout"
+        android:layout_above="@+id/optionslayout2"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/tabbutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/registration_button_margin"
+            android:text="@string/random"
+            android:id="@+id/random" />
+        <Button
+            style="@style/tabbutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/registration_button_margin"
+            android:text="@string/quiz"
+            android:id="@+id/quiz" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:id="@+id/optionslayout2"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/tabbutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:text="@string/interactivemap"
+            android:id="@+id/mapButton" />
+        <Button
+            style="@style/tabbutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/countrylist"
+            android:id="@+id/countrylist" />
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MapApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_name">Unesite nadimak</string>
+    <string name="interactivemap">Karta Europe</string>
+    <string name="countrylist">Lista zemalja</string>
+    <string name="random">Slučajni izbor</string>
+    <string name="quiz">Kviz znanja</string>
+    <string name="playagain">Igraj ponovno</string>
+    <string name="skip">Preskoči</string>
+    <string name="submit">Spremi</string>
+    <string name="enter_nickname">Unesi nadimak</string>
+    <string name="saving_results">Spremanje rezulata</string>
+    <string name="result">Rezultat:</string>
+</resources>
